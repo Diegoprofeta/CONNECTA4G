@@ -1,11 +1,11 @@
 {
   "Version": "1.0.1",
   "ReleaseNotes": "TESTE UPDATE ONLINE @VEM_BRABO",
-  "UrlUpdate": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/UrlUpdate",
-  "Sms": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/UrlSms",
-  "EmailFeedback": "ultranetvpn@gmail.com",
-  "UrlContato": "https://t.me/VEM_BRABO",
-  "UrlTermos": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/TERMOS%20DE%20USO.html",
+  "UrlUpdate": "https://raw.githubusercontent.com/Diegoprofeta/CONNECTA4G/main/UrlUpdate",
+  "Sms": "https://raw.githubusercontent.com/Diegoprogeta/CONNECTA4G/main/UrlSms",
+  "EmailFeedback": "diegosilvasantos1983@gmail.com",
+  "UrlContato": "https://t.me/diegosantos1983",
+  "UrlTermos": "https://raw.githubusercontent.com/Diegoprofeta/CONNECTA4G/main/TERMOS%20DE%20USO.html",
   "Udp": [
     {
       "Porta": "7100"
@@ -28,17 +28,17 @@
       "Name": "SERVIDOR (BR01) ONLINE",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "och.atecubanos.tk",
+      "ServerIP": "br2.diegosilvanet.tk",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
       "PASS": ""
     },
     {
-      "Name": "SERVIDOR FREE (BR02) ONLINE",
+      "Name": "SERVIDOR (BR02) ONLINE",
       "TYPE": "free",
       "FLAG": "br.png",
-      "ServerIP": "och.atecubanos.tk",
+      "ServerIP": "br2.diegosilvanet.tk",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -49,7 +49,7 @@
     {
       "Name": "VIVO - CLARO - TIM - OI",
       "FLAG": "vivo",
-      "Payload": "GET sni://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: och.atecubanos.tk[crlf]X-Forward-Host: och.atecubanos.tk[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
+      "Payload": "GET sni://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host:  br2.diegosilvanet.tk[crlf]X-Forward-Host: och.atecubanos.tk[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
       "SNI": "mobilidade.cloud.caixa.gov.br",
       "TlsIP": "104.16.57.6",
       "ProxyIP": "",
@@ -59,7 +59,7 @@
     {
       "Name": "VIVO DIRECT",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: och.atecubanos.tk[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host:  br2.diegosilvanet.tk[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "104.16.57.6",
       "ProxyIP": "",
@@ -69,7 +69,7 @@
     {
       "Name": "TIM - VIVO",
       "FLAG": "tim",
-      "Payload": "GET wss://cdnjs.cloudflare.com HTTP/1.1[crlf]Host: och.atecubanos.tk [crlf]X-Forward-Host: och.atecubanos.tk[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf] GET [host_port][protocol][crlf][crlf]",
+      "Payload": "GET wss://cdnjs.cloudflare.com HTTP/1.1[crlf]Host:  br2.diegosilvanet.tk [crlf]X-Forward-Host:  br2.diegosilvanet.tk[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf] GET [host_port][protocol][crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.18.94",
@@ -79,7 +79,7 @@
     {
       "Name": "CLARO SEM PROMOÇÃO",
       "FLAG": "claro",
-      "Payload": "GET sni://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: och.atecubanos.tk[crlf]X-Forward-Host: och.atecubanos.tk[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
+      "Payload": "GET sni://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host:  br2.diegosilvanet.tk[crlf]X-Forward-Host:  br2.diegosilvanet.tk[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
       "SNI": "mobilidade.cloud.caixa.gov.br",
       "TlsIP": "104.16.57.6",
       "ProxyIP": "",
@@ -89,11 +89,11 @@
     {
       "Name": "OI - VIVO",
       "FLAG": "oi",
-      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: och.atecubanos.tk[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: br2.diegosilvanet.tk[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "mobilidade.cloud.caixa.gov.br",
-      "TlsIP": "104.16.57.6",
-      "ProxyIP": "",
-      "ProxyPort": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.57.6",
+      "ProxyPort": "80",
       "Info": "Tlsws"
     }
   ]
