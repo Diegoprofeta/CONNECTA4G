@@ -2,8 +2,8 @@
 
 ##############################
 
-https://t.me/VEM_BRABO
-https://t.me/ALL_SOURCESBR_OFC
+https://t.me/diegosantos1983
+
 
 BOA NAVEGAÇÃO.
 
