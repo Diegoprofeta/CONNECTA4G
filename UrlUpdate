@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.7",
+  "Version": "1.0.8",
   "ReleaseNotes": "Nova Atualização Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/Diegoprofeta/CONNECTA4G/main/UrlUpdate",
   "Sms": "BOTAR LINK DO SMS AQUI",
@@ -131,8 +131,8 @@
     {
       "Name": "💚VIVO [SSL 3]",
       "FLAG": "vivo",
-      "Payload": "GET wss://cdnjs.cloudflare.com// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "cdnjs.cloudflare.com",
+      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
       "TlsIP": "104.18.7.80",
       "ProxyIP": "",
       "ProxyPort": "443",
